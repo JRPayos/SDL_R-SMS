@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-family: "Anton", sans-serif;
+	font-size: 40px;
+	font-style: normal;	
+}
+
+h2 {
+	font-family: "Anton", sans-serif;
+	font-size: 30px;
+	font-style: normal;	
+}
+
+h4 {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal; 
+	text-decoration: none;
+}
+
+p {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal; 
+}
+.profile-name {
+	text-align: center;
+}
+.breadcrumb a {
+	text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B7DCFF;
+}
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 700*/
+.oswald-regular {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-bold {
+	font-family: "Anton", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+}
+		
+.title-bar {
+	color: #212529;
+	transition: 0.2s;
+}
+
+.title-bar:hover {
+	color: grey;
+}
+
+/*HEADER DIV*/
+.header-container{
+	background:#A7E5FF;
+	max-height: 200px;
+	height: 100%;
+	width: 100%;
+	padding: 20px 0;
+}	
+
+/*LOGIN DIV*/
+.login-container {
+    max-width: 400px;
+	width: 100%;
+    margin: 100px auto 100px 0;
+    background: #fff;
+    padding: 30px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+}
+
+.login-image {
+	max-width: 100px;
+	width: 100%;
+	margin: 100px 0 100px auto;
+	background: #A7E5FF;
+	border-radius: 20px 0 0 20px;
+	
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-input {
+	width: 100%;
+	border-radius: 30px;
+	margin: 20px 0px;
+	padding: 0 20px;
+	transition: 0.2s;
+}
+		
+.login-input:hover{
+	border: 2px solid #43A7E7;
+}
+
+.login-input-label {
+	padding-right: 10px;
+	
+}
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #43A7E7;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #B7DCFF;
+}
+		
+
+	.app-name{
+		padding: 0 0 0 50px;
+		font-family: "Helvetica Neue";
+		color: white;
+			
+	}
+	
+	.footer-container{
+		background: rgba(114,223,218,0.74);
+		height: 100%;
+		width: 100%;
+		border-radius: 0;
+	}
+
+
+	footer {
+		background-color: #f8f9fa;
+		padding: 20px;
+		text-align: center;
+	  }
+	  footer .contact-info {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	  }
+	  footer .contact-info .quote {
+		text-align: left;
+	  }
+	  footer .contact-info .contacts {
+		text-align: right;
+	  }
+	  footer .contact-info .contacts a {
+		margin: 0 10px;
+	  }
+
+.menu-item{
+	padding: 0 10px;
+}
+	
+.button-link{
+		text-decoration: none;
+		color: aliceblue;
+}
+
+
+.profile-container {
+	vertical-align: middle;
+	max-width: 160px;
+	width: 100%;
+}
+
+.profile-container p{
+	background-color:#B7DCFF;
+	border-radius: 5px;
+}
+
+.header-login {
+	background-color: #175767;
+	padding: 10px 30px;
+	height: 100%;
+}
+
+.header-login-text{
+	text-decoration: none;
+	color: whitesmoke;
+	transition: 0.1s;
+}
+.header-login-text:hover{
+	color: #212529;
+}
+
+.manager-container {
+	width: 100%;
+	height: 100%;
+
+}
+
+.sidebar-buttons {
+	background-color:#175767;
+	transition: 0.1s;
+	color:aliceblue;
+}
+
+.sidebar-buttons:hover {
+	background-color: #A7FDFF;
+}
+
+.home-container {
+    max-width: 700px;
+	width: 100%;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(204, 136, 136, 0.1);
+}
+.home-container img {
+	max-width: 200px;
+	width: 100%;
+}
+/*TABLE DESIGN DIV*/
+
+.table th {
+	background-color: #212529;
+	text-align: center;
+	color: #A7E5FF;
+}
+
+.table th,
+.table td {
+	padding: 10px 10px;
+}
+
+.table tr:nth-of-type(even) {
+	background-color: #3f3030;
+}
+.table tr:last-of-type {
+	border-bottom: 2px solid #175767;
+}
+
+
+/*DASHBOARD*/
+
+.dash-cont {
+	max-width: 400px;
+	width: 100%;
+    background: #fff;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.brand-name {
+	color: #fff;
+	text-wrap:wrap;
+}
+
+.navbar-brand img {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+.navbar .profile-img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+ }
